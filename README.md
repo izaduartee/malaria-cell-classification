@@ -29,18 +29,18 @@ A malária é diagnosticada tradicionalmente por microscopia de esfregaços sang
 - **Nome:** Cell Images for Detecting Malaria
 - **Fonte:** https://www.kaggle.com/datasets/iarunava/cell-images-for-detecting-malaria
 - **Classes:** `Parasitized` e `Uninfected` (classificação binária)
-- **Tamanho:** <nº total de imagens> (<nº por classe>)
-- **Observações:** <resolução variável, balanceamento entre classes, etc.>
+- **Tamanho:** 27.558 imagens (13.779 por classe)
+- **Observações:** dataset perfeitamente balanceado entre as classes; nenhuma imagem corrompida; resolução variável (largura de 46 a 394 px e altura de 40 a 385 px, média ≈ 133×133 px), exigindo redimensionamento antes do treino.
 
 ### Divisão dos dados (hold-out)
 
 | Conjunto   | Proporção | Nº de imagens |
 |------------|-----------|---------------|
-| Treino     | <70%>     | <...>         |
-| Validação  | <15%>     | <...>         |
-| Teste      | <15%>     | <...>         |
+| Treino     | 70%       | 19.290        |
+| Validação  | 15%       | 4.134         |
+| Teste      | 15%       | 4.134         |
 
-A divisão foi feita com `train_test_split` (scikit-learn), de forma **estratificada** e com **semente fixa** (`random_state=<42>`). O conjunto de teste é usado apenas na avaliação final.
+A divisão foi feita com `train_test_split` (scikit-learn), de forma **estratificada** e com **semente fixa** (`random_state=42`), em duas etapas: 70% para treino e 30% restantes, divididos ao meio entre validação e teste. As proporções entre as classes se mantêm em cada conjunto. Os índices da divisão estão salvos em `splits/` (`train.csv`, `val.csv`, `test.csv`). O conjunto de teste é usado apenas na avaliação final.
 
 ## 3. Metodologia
 
