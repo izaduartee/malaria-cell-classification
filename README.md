@@ -7,6 +7,8 @@ Prof. João Fernando Mari
 **Autores:** Izabela Pereira Duarte e Manuelle Julia Gomes Santana
 
 🎥 **Vídeo de apresentação (YouTube):** <link do vídeo>
+
+
 📄 **Artigo (IEEE, PDF):** <link ou caminho em `docs/artigo.pdf`>
 
 ---
