@@ -1,7 +1,7 @@
 # Classificação de Células Infectadas por Malária com Deep Learning
 
-Projeto da disciplina **SIN 393 – Introdução à Visão Computacional (2026)**
-Universidade Federal de Viçosa – Campus Rio Paranaíba | Sistemas de Informação
+Projeto da disciplina **SIN 393 – Introdução à Visão Computacional (2026)**  
+Universidade Federal de Viçosa – Campus Rio Paranaíba | Sistemas de Informação  
 Prof. João Fernando Mari
 
 **Autores:** Izabela Pereira Duarte e Manuelle Julia Gomes Santana
