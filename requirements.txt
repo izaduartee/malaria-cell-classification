@@ -3,9 +3,9 @@ torchvision
 numpy
 pandas
 scikit-learn
+scipy
 matplotlib
 seaborn
 Pillow
-tqdm
 kaggle
 jupyter
