@@ -1,4 +1,4 @@
-# Impacto do \emph{transfer learning} na classificação de células infectadas por malária com ResNet-18 e MobileNetV2
+# Impacto do transfer learning na classificação de células infectadas por malária com ResNet-18 e MobileNetV2
 
 Projeto da disciplina SIN 393 – Introdução à Visão Computacional (2026)
 Universidade Federal de Viçosa, Campus Rio Paranaíba | Sistemas de Informação
